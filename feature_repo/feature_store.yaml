@@ -1,0 +1,9 @@
+project: anomaly_guard
+registry: data/registry.db
+provider: local
+entity_key_serialization_version: 2  # <--- Added this line
+online_store:
+    type: sqlite
+    path: data/online_store.db
+offline_store:
+    type: file
