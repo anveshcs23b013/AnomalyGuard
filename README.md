@@ -7,7 +7,7 @@
 
 **AnomalyGuard** is a production-grade, event-driven Machine Learning pipeline designed to detect anomalies in user clickstream data in real-time.
 
-It leverages a decoupled microservices architecture to process streaming data from **Confluent Cloud (Kafka)**, maintain stateful features using **Feast**, and serve low-latency predictions via **BentoML**.
+It leverages a decoupled microservices architecture to process streaming data from **Confluent Cloud (Kafka)**, maintain stateful features using **Feast**, and serve low-latency predictions via **[...]**
 
 ---
 
@@ -46,7 +46,7 @@ The system follows the **Modern Data Stack** principles for MLOps:
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-* Python 3.9 or higher
+* Python 3.10 or higher
 * A free [Confluent Cloud](https://confluent.cloud) account.
 
 ### 2. Installation
@@ -55,8 +55,9 @@ Clone the repository and install dependencies:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/SohiniManne/AnomalyGuard](https://github.com/SohiniManne/AnomalyGuard)
+git clone https://github.com/anveshcs23b013/AnomalyGuard
 cd AnomalyGuard
 
 # Install dependencies
 pip install -r requirements.txt
+```
